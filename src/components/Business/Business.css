@@ -1,20 +1,33 @@
 .Business {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     width: 16.66rem;
-    margin: 0 .5rem 2.3rem .5rem;
+    margin: 0 1rem 2.3rem 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    background: rgba(255,255,255,0.1);
+    border: solid 1px black;
+    text-align: center;
   }
   
   .Business .image-container {
-    height: 16.66rem;
-    margin-bottom: 1rem;
+    object-fit: cover;
+    height: 9rem;
+    width: 12rem;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1rem;
+    margin: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
   
   .Business h2 {
     margin-bottom: .5rem;
     font-size: 1.2rem;
     font-weight: 600;
+    text-align: center;
   }
   
   .Business-information {
@@ -42,7 +55,7 @@
   }
   
   .Business-reviews h3 {
-    color: #CCA353;
+    color: goldenrod;
     font-weight: 600;
   }
   
